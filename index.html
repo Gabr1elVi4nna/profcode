@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Prof: Ajax</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container-fluid">
+              <a id="home" class="navbar-brand" href="index.html"><h1>Professor Ajax</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><div class="texto">HOME</div></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="aulas.html"><div class="texto">Aulas</div></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="musicas_programacao.html"><div class="texto">Musicas P/ Programação</div></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="contato.html"><div class="texto">Contato</div></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <figure class="borda">
+            <img class="professor" src="./imagens/patrick-stewart-charles-xavier.png" alt="">
+            <figcaption>
+                <h2><b> Professor Ajax</b></h2>
+            </figcaption>
+        </figure>
+        <p class="descricao" >Professor particular (Prof
+            Ajax) que ministra aulas de programação utilizando 4 linguagens
+            (Java, C#, Python e Linguagem R).</p>
+        
+        <p><h2><b> Linguagens</b></h2></p><br>
+        <div class="linguagem">
+            <figure>
+                <a href="#descricao-java"><img id="java" src="./imagens/java.jpg" alt=""> </a>
+                <figcaption>
+                    <a href="#descricao-java">Java</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <a href="#descricao-csharp"><img id="csharp" src="./imagens/csharp.png" alt=""></a>
+                <figcaption>
+                   <a href="#descricao-csharp">C# (C sharp)</a> 
+                </figcaption>
+            </figure>
+
+            <figure>
+                <a href="#descricao-python"><img id="python" src="./imagens/python.png" alt=""></a>
+                <figcaption>
+                   <a href="#descricao-python">Python</a>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <a href="#descricao-r"><img id="r" src="./imagens/r.png" alt=""></a>
+                <figcaption>
+                   <a href="#descricao-r">R</a>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!--JAVA-->
+        <div id="descricao-java" class="descricao-java">
+            <img src="./imagens/java.jpg" alt="">
+            <p>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems. Em 2008 o Java foi adquirido pela empresa Oracle Corporation. Diferente das linguagens de programação modernas, que são compiladas para código nativo, a linguagem Java é compilada para um bytecode que é interpretado por uma máquina virtual (Java Virtual Machine, mais conhecida pela sua abreviação JVM).</p>
+        </div>
+
+        <!--C#-->
+        <div id="descricao-csharp" class="descricao-csharp">
+            <img src="./imagens/csharp.png" alt="">
+            <p>O C# é uma linguagem de programação multiparadigma criada pela Microsoft, sendo a principal da plataforma .NET. Por ser uma linguagem que suporta, entre outros paradigmas, a orientação à objetos, ela suporta conceitos comuns como encapsulamento, herança e polimorfismo. Trata-se também de uma linguagem fortemente tipada e case-sensitive, ou seja, faz diferenciação entre letras minúsculas e maiúsculas.
+                O C# veio para facilitar o processo de desenvolvimento, tendo inúmeros recursos que proporcionam uma grande produtividade para os desenvolvedores que a utilizam.</p>
+        </div>
+
+        <!--PYTHON-->
+        <div id="descricao-python" class="descricao-python">
+            <img src="./imagens/python.png" alt="">
+            <p>Python é uma linguagem de programação de alto nível ou <i>High Level Language</i>, dinâmica, interpretada, modular, multiplataforma e orientada a objetos. Uma forma específica de organizar softwares onde, a grosso modo, os procedimentos estão submetidos às classes, o que possibilita maior controle e estabilidade de códigos para projetos de grandes proporções. Idealizada e desenvolvida por Guido Van Rossum, matemático holandês, no início dos anos 90, o Python foi criado com o objetivo de otimizar a leitura de códigos e estimular a produtividade de quem os cria, seja este um programador ou qualquer outro profissional.</p>
+        </div>
+
+        <!--R-->
+        <div id="descricao-r" class="descricao-r">
+            <img src="./imagens/r.png" alt="">
+            <p>R é uma linguagem de programação multi-paradigma orientada a objetos, programação funcional, dinâmica, fracamente tipada, voltada à manipulação, análise e visualização de dados. Foi criado originalmente por Ross Ihaka e por Robert Gentleman no departamento de Estatística da Universidade de Auckland, Nova Zelândia. Atualmente é mantido por uma comunidade de colaboradores voluntários[3] que contribuem com código fonte da linguagem e com a expansão de funcionalidades por bibliotecas.</p>
+        </div>
+
+    </main>
+    <footer>
+        <h4>&copy;<b>Desenvolvido por Gabriel Vianna</b></h4>
+        <ul>
+            <li><i class="fab fa-facebook-square"></i></li>
+            <li><i class="fab fa-instagram-square"></i></li>
+            <li><i class="fab fa-whatsapp-square"></i></li>
+          </ul>
+    </footer>
+</body>
+</html>
